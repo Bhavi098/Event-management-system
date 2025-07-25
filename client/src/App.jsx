@@ -18,7 +18,7 @@ import PaymentSummary from './pages/PaymentSummary'
 import TicketPage from './pages/TicketPage'
 import CreatEvent from './pages/CreateEvent'
 
-axios.defaults.baseURL = 'https://ems-backend-ip5b.onrender.com';
+axios.defaults.baseURL = 'https://event-management-system-backend-mi87.onrender.com';
 axios.defaults.withCredentials=true;
 
 function App() {
