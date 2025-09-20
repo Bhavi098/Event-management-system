@@ -18,7 +18,7 @@ import PaymentSummary from './pages/PaymentSummary'
 import TicketPage from './pages/TicketPage'
 import CreatEvent from './pages/CreateEvent'
 
-axios.defaults.baseURL = 'https://event-management-system-backend-mi87.onrender.com';
+axios.defaults.baseURL = 'http://localhost:4000/';
 axios.defaults.withCredentials=true;
 
 function App() {
@@ -41,8 +41,7 @@ function App() {
       <Route path='/forgotpassword' element = {<ForgotPassword/>} />
       <Route path='/resetpassword' element = {<ResetPassword/>} />
       <Route path='/event/:id/ordersummary/paymentsummary' element = {<PaymentSummary />} />
-      
-    
+      <Route path='/createevent' element = {<CreatEvent />} />
     </Routes>
     </UserContextProvider>  
   )

@@ -22,7 +22,7 @@ app.use(
     origin: "http://localhost:5173",
   })
 );
-
+  
 // MongoDB connection
 mongoose.connect(process.env.MONGO_URL);
 
