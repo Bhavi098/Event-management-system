@@ -1,5 +1,5 @@
 // import React from 'react'
-import axios from "axios";
+import axios from "../axios";
 import { format, startOfMonth, endOfMonth, eachDayOfInterval, addMonths } from "date-fns";
 import { useEffect, useState } from "react";
 import { BsCaretLeftFill, BsFillCaretRightFill } from "react-icons/bs";

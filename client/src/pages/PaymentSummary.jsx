@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import axios from 'axios';
+import axios from '../axios';
 import  { useContext, useEffect, useState } from 'react'
 import { Link, Navigate, useParams } from 'react-router-dom';
 import {IoMdArrowBack} from 'react-icons/io'

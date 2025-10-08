@@ -19,7 +19,12 @@ app.use(cookieParser());
 app.use(
   cors({
     credentials: true,
-    origin: ["http://localhost:5173","https://event-management-system-jet-two.vercel.app"],
+    origin: [
+      "http://localhost:5173", 
+      "https://event-management-system-jet-two.vercel.app",
+      "https://event-management-system-8tk7la88a-bhavishnus-projects.vercel.app",
+      "https://event-management-system-git-main-bhavishnus-projects.vercel.app",
+    ],
   })
 );
   

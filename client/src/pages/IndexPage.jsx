@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-key */
-import axios from "axios";
+import axios from "../axios";
 import { useEffect, useState } from "react"
 import { Link } from "react-router-dom";
 import { BsArrowRightShort } from "react-icons/bs";

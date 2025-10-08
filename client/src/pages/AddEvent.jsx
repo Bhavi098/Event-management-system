@@ -1,5 +1,5 @@
 import  { useContext, useState } from 'react';
-import axios from 'axios';
+import axios from '../axios';
 import { UserContext } from '../UserContext';
 
 export default function AddEvent() {

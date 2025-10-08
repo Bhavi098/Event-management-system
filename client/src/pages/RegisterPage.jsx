@@ -1,7 +1,7 @@
 /* eslint-disable no-empty */
 import { Link, Navigate } from "react-router-dom";
 import { useState } from "react";
-import axios from "axios";
+import axios from "../axios";
 
 export default function RegisterPage() {
   const [name, setName] = useState('');

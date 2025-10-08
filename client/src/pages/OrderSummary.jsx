@@ -1,4 +1,4 @@
-import axios from 'axios';
+import axios from '../axios';
 import { useEffect, useState } from 'react';
 import { IoMdArrowBack } from "react-icons/io";
 import { Link, useParams } from 'react-router-dom';
